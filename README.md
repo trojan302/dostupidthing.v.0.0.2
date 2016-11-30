@@ -23,7 +23,8 @@ And than, you get Error Database. edit the source* **directory-cloning/config/co
 - Open Directory Project
 - Open File *config.php* inside folder **config**
 - Edit line :
-	
+		
+		$base_dir 	= 'http://YourHostName/dostupidthing.v.0.0.2/';
 		$db = 	mysqli_connect("Your-Hostname", "Username", "Password", "Database-Name");
 	
 If your project cloning has been finished, get initial on Github :
