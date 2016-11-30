@@ -23,6 +23,48 @@ $flag_name = $flag->fetch_assoc();
             <div class="betta-large betta-justify">
             <?php echo $post['body']; ?>
         </div>
+        <hr>
+        <div class="betta-content betta-padding">
+            
+            <form action="" style="width: 80%;">
+                <caption><b>Form Comments</b></caption>
+                <input type="text" name="fullname" class="betta-input betta-border" placeholder="Enter Fullname">
+                <textarea name="comment" id="" cols="30" rows="10" class="betta-input betta-border" placeholder="Enter Your Comment"></textarea><br>
+                <input type="submit" name="submit" value="Post Comment" class="betta-btn betta-round">
+            </form>
+
+            <blockquote class="betta-panel betta-leftbar betta-border-black">Comment</blockquote>
+            <div class="betta-container betta-padding betta-blue betta-round-large betta-margin-bottom">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="<?= $base_dir; ?>libs/img/wallpaper.png" alt="Avatar" style="width:50px;height:50px;margin: 20px;" class="betta-round-xxlarge">
+                        </td>
+                        <td>
+                            <p class="betta-left">
+                                <span class="betta-tag betta-round betta-large">@anonymous</span><br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores neque sequi ullam libero odio blanditiis quibusdam, consectetur aspernatur corporis, minima totam unde voluptas fuga, sunt fugit magnam quod et hic.
+                            </p>    
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="betta-container betta-padding betta-blue betta-round-large">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="<?= $base_dir; ?>libs/img/contact.jpg" alt="Avatar" style="width:50px;height:50px;margin: 20px;" class="betta-round-xxlarge">
+                        </td>
+                        <td>
+                            <p class="betta-left">
+                                <span class="betta-tag betta-red betta-round betta-large">@InternalError <sup>[ADMIN]</sup></span><br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores neque sequi ullam libero odio blanditiis quibusdam, consectetur aspernatur corporis, minima totam unde voluptas fuga, sunt fugit magnam quod et hic.
+                            </p>    
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
 
 	
