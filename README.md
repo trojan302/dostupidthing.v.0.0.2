@@ -6,6 +6,8 @@ Thas't It Free  Dude! Now...
 
 ![Template DoStupidThing](https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/15241379_1888845928015410_4329073085525849888_n.jpg?oh=935c7ab41d91d71be3c68c899382c5d7&oe=58BD7526  "Template View")~~~~
 
+![Template DoStupidThing](libs/img/admin-dashboard.png  "Template View")~~~~
+
 ### How To Install ?
 
 Open your terminal  **crtl+alt+t** : 

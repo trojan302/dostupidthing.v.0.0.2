@@ -11,16 +11,25 @@
 </head>
 <body>
 
-	<div class="betta-top">
-		<ul class="betta-navbar betta-light-grey betta-wide betta-padding-8 betta-card-2">
-			<li>
-			  <a href="<?= $base_dir; ?>" class="betta-margin-left betta-hover-none"><b>Do Stupid</b> Things</a>
-			</li>
-			<!-- Float links to the right. Hide them on small screens -->
-			<li class="betta-right betta-hide-small">
-			  <a href="<?= $base_dir; ?>list/projects" class="betta-left">Projects</a>
-			  <a href="<?= $base_dir; ?>about/profile" class="betta-left">About</a>
-			  <a href="<?= $base_dir; ?>profile/contact" class="betta-left betta-margin-right">Contact</a>
-			</li>
-		</ul>
-	</div>
+<!-- Sidenav/menu -->
+<nav class="betta-animate-left betta-sidenav betta-red betta-collapse betta-top betta-large betta-padding" style="z-index:3;width:300px;font-weight:bold" id="mySidenav"><br>
+<a href="javascript:void(0)" onclick="betta_close()" class="betta-padding-xlarge betta-hide-large betta-display-topleft betta-hover-white" style="width:100%">Close Menu</a>
+<div class="betta-container">
+<h3 class="betta-padding-64"><b>Admin<br>Dashboard</b></h3>
+</div>
+<a href="#" onclick="betta_close()" class="betta-padding betta-hover-white">Home</a> 
+<a href="#Trafic" onclick="betta_close()" class="betta-padding betta-hover-white">Trafic</a> 
+<a href="#Project" onclick="betta_close()" class="betta-padding betta-hover-white">Project</a> 
+<a href="#Profile" onclick="betta_close()" class="betta-padding betta-hover-white">Profile</a> 
+<a href="#Contact" onclick="betta_close()" class="betta-padding betta-hover-white">Contact</a> 
+<a href="#Tag" onclick="betta_close()" class="betta-padding betta-hover-white">Tag</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="betta-container betta-top betta-hide-large betta-red betta-xlarge betta-padding">
+<a href="javascript:void(0)" class="betta-btn betta-red betta-border betta-border-white betta-margin-right" onclick="betta_open()">&#9776;</a>
+<span>Admin Dashboard</span>
+</header>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="betta-overlay betta-hide-large" onclick="betta_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
