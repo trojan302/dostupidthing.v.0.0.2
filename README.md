@@ -37,4 +37,6 @@ If your project cloning has been finished, get initial on Github :
 	$ git commit -m "Your Commit Message"
 	$ git push origin master 
 
-Thanks For contributes on Freaky Code in my repository. Follow @trojan302[@trojan302](https://github.com/trojan302) 
+Thanks For contributes on Freaky Code in my repository. Follow [@trojan302](https://github.com/trojan302)
+
+Read Documentation on [InternalErrorDocs](https://trojan302.github.io/documentations.html)
