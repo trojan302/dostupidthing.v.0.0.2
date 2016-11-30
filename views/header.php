@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="<?= $base_dir; ?>libs/css/betta.css">
 	<link rel="stylesheet" href="<?= $base_dir; ?>libs/css/blog.css">
 	<link rel="stylesheet" href="<?= $base_dir; ?>libs/font-awesome/css/font-awesome.css">
-	<link rel="icon" type="image/png" href="<?= $base_dir; ?>/libs/img/icon.png">
+	<link rel="icon" type="image/png" href="<?= $base_dir; ?>libs/img/icon.png">
 </head>
 <body>
 

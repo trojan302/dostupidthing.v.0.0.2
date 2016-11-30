@@ -21,10 +21,16 @@ include "views/header.php";
        <div class="betta-col l8 m8 s8">
          <h3>Trafic</h3>
          <hr>
+         <span>Project </span>
          <div class="betta-progress-container betta-small">
-            <span>Project </span>
             <div id="myBar" class="betta-progressbar betta-green" style="width:25%">
               <div class="betta-center betta-text-white">25%</div>
+            </div>
+          </div>
+          <span>Indexs </span>
+         <div class="betta-progress-container betta-small">
+            <div id="myBar" class="betta-progressbar betta-green" style="width:57%">
+              <div class="betta-center betta-text-white">57%</div>
             </div>
           </div>
        </div>

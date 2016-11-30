@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond $1 !^(index\.php)
+RewriteRule ^post/([^/\.]+)/?$ post.php?type=view&id=$1 [L]
+RewriteRule ^list/([^/\.]+)/?$ project.php?type=view&data=$1 [L]
+RewriteRule ^about/([^/\.]+)/?$ about.php?type=view&data=$1 [L]
+RewriteRule ^profile/([^/\.]+)/?$ contact.php?type=view&data=$1 [L]
