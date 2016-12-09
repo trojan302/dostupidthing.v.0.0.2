@@ -33,3 +33,13 @@
 
 <!-- Overlay effect when opening sidenav on small screens -->
 <div class="betta-overlay betta-hide-large" onclick="betta_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="betta-main betta-animate-top" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="betta-container" style="margin-top:80px" id="Trafic">
+    <h1 class="betta-jumbo"><b><i class="fa fa-link"></i> Do Stupid Thing</b></h1>
+    <h1 class="betta-xxxlarge betta-text-red"><b>Trafic <i class="fa fa-area-chart"></i></b></h1>
+    <hr style="width:30%;border:5px solid black" class="betta-round">
+  </div>
