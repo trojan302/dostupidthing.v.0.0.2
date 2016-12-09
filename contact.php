@@ -1,4 +1,10 @@
-<?php 
+<?php
+session_start();
+
+if (!isset($_SESSION['uname'])) {
+  echo '<meta http-equiv="Refresh" content="0;url=login.php" />';
+}
+
 include "config/config.php";
 include "config/contact_act.php";
 include "views/header.php";
@@ -10,14 +16,15 @@ include "views/header.php";
           <hr>
           <?php 
           if (isset($notif)) {
-            echo "<div class='betta-container betta-padding betta-round betta-blue'>";
+            echo "<div class='betta-animate-fading betta-container betta-padding betta-round betta-blue'>";
             echo $notif;
             echo "</div>";
+            echo '<meta http-equiv="Refresh" content="3;url=" />';
           }
           ?>
           <form method="POST" class="betta-container">
             <label>Username : </label>
-            <input type="text" name="uname" placeholder="Enter Your Username" required class="betta-input betta-margin-bottom betta-border">
+            <input type="text" name="uname" placeholder="Enter Your Username" value="<?= $_SESSION['uname'] ?>" disabled class="betta-input betta-margin-bottom betta-border">
             <label>Email Address :</label>
             <input type="email" name="email" placeholder="Enter Your Email" required class="betta-input betta-margin-bottom betta-border">
             <label>Messages :</label>

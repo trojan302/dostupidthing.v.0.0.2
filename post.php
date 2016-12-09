@@ -1,4 +1,10 @@
 <?php 
+session_start();
+
+if (!isset($_SESSION['uname'])) {
+  echo '<meta http-equiv="Refresh" content="0;url=login.php" />';
+}
+
 include "config/config.php";
 include "views/header.php";
 
